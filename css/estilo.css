@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: white; 
+    background: rgba(0, 0, 0, 0.877); 
+}
+
+a{
+    text-decoration: none; 
+    color: white; 
+}
+
+p{
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.bg-info{
+    background: #000; 
+}
+
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/* SECTION */
+
+section{
+    max-width: 960px;
+    margin: 0 auto; 
+    margin-top: 100px;
+    border-bottom: 1px solid white;
+    padding: 50px 0px;
+    
+}
+
+h2{
+    color:#FE9A2E;
+    margin-bottom: 20px;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.desc{
+    flex: 1 1 200px;
+}
+
+.info01{
+    flex: 1 1 100px;
+    padding: 0px 50px;
+}
+
+.pdesc{
+    padding: 5px 0; 
+}
+
+.imagem{
+    flex: 1 1 200px;
+   
+    margin: 0px;
+    
+}
+
+@media (max-width: 900px)
+{
+    .desc, h2, .info01{
+        margin: 0px 20px;
+    }
+
+    .menu a {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    section, p, .pdesc{
+        text-align: center;
+    }
+
+    .desc{
+        flex: 1 1 200px;
+        
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    @media (max-width: 700px){
+            .desc, .info01{
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+
+            .imagem{
+                display: none; 
+            }
+            
+    }
+        h1{
+            text-align: center;
+        }
+
+        .menu{
+            justify-content: center; 
+        }
+
+        .name p{
+            display: none;
+        }
+}
+
+/* ARTICLE */
+
+article{
+    max-width: 960px;
+    margin: 0 auto; 
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h3{
+   font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.senac{
+    flex: 1 1 200px;
+}
+
+.cert{
+    flex: 1 1 200px;
+}
+
+.cert p, h2{
+    padding: 10px 0;
+}
+
+/* RODAPE */
+
+footer{
+    max-width: 960px;
+    margin: 0 auto; 
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    padding: 50px 0px;
+}
+
+.rede{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.rede a{
+    padding: 0px 10px;
+}
+
+@media (max-width: 600px){
+    article{
+        max-width: 960px;
+        margin: 0 auto; 
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    h3{
+    font-size: 20px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       text-align: center;
+     }
+
+     .senac{
+         flex: 1 1 300px;
+     }
+
+     .cert{
+        flex: 1 1 300px;
+    }
+    
+     
+     
+}
